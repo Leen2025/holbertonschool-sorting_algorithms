@@ -1,4 +1,4 @@
-u#include "sort.h"
+#include "sort.h"
 #include <stdio.h>
 
 /**
