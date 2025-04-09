@@ -16,7 +16,7 @@ b->next->prev = a;
 a->next = b->next;
 b->prev = a->prev;
 b->next = a;
-a->prev = b;
+ai->prev = b;
 print_list(*list);
 }
 
@@ -63,4 +63,3 @@ current = current->prev;
 start = current->next;
 }
 }
-
